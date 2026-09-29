@@ -3,46 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>WhatsApp-I-Sᯓ➤</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg"
-          href="https://pdftourl.net/images/1789690169138-a2a85762-635c-43d6-927a-bf5bb82867ed.jpg">
+    <meta name="theme-color" content="#075E54">
 
-    <!-- Icon Android / Shortcut -->
+    <!-- Favicon (PNG) -->
+    <link rel="icon" type="image/png"
+          href="https://pdftourl.net/images/1790674714816-1c1e5144-215c-4a45-a620-b59e29249c7a.png">
+    <link rel="shortcut icon" type="image/png"
+          href="https://pdftourl.net/images/1790674714816-1c1e5144-215c-4a45-a620-b59e29249c7a.png">
+
+    <!-- Untuk iPhone -->
     <link rel="apple-touch-icon"
-          href="https://pdftourl.net/images/1789690169138-a2a85762-635c-43d6-927a-bf5bb82867ed.jpg">
+          href="https://pdftourl.net/images/1790674714816-1c1e5144-215c-4a45-a620-b59e29249c7a.png">
+
+    <!-- Manifest inline: agar Android pakai ikon ini saat dibuat pintasan -->
+    <link rel="manifest"
+          href='data:application/manifest+json,{"name":"WhatsApp-I","short_name":"WhatsApp-I","start_url":".","display":"standalone","background_color":"%23ffffff","theme_color":"%23075E54","icons":[{"src":"https://pdftourl.net/images/1790674714816-1c1e5144-215c-4a45-a620-b59e29249c7a.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}'>
 
     <style>
         html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
+            margin: 0; padding: 0;
+            width: 100%; height: 100%;
             background-color: #eee;
             overflow: hidden;
         }
-
         .iframe-container {
             width: 100%;
             height: 100vh;
             height: 100dvh;
             overflow: hidden;
         }
-
         iframe {
             display: block;
-            width: 100%;
-            height: 100%;
+            width: 100%; height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
     <div class="iframe-container">
-        <iframe
-            id="app"
+        <iframe id="app"
             src="https://script.google.com/macros/s/AKfycbyLrBFSN9ZI06682QIFmZnIOJay8JDBwEbent7Cl1F-30YUHYhZBDROHwgLe5N7SRne/exec"
             allow="fullscreen; camera; microphone; display-capture; geolocation">
         </iframe>
